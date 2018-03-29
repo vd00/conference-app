@@ -20,6 +20,13 @@ npm-debug.log*
 coverage/
 dist/
 node_modules/
+resources/
+.github/
+www/
+.editorconfig/
+.gitignore/
+config.xml/
+ionic.config.json/
 tmp/
 temp/
 hooks/

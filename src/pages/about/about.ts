@@ -9,9 +9,10 @@ import { PopoverPage } from '../about-popover/about-popover';
 })
 export class AboutPage {
   conferenceDate = '2047-05-17';
+  // conferenceDate = '2047-05-17';
 
   constructor(public popoverCtrl: PopoverController) { }
-
+//model open
   presentPopover(event: Event) {
     let popover = this.popoverCtrl.create(PopoverPage);
     popover.present({ ev: event });

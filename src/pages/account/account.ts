@@ -18,6 +18,7 @@ export class AccountPage {
 
   ngAfterViewInit() {
     this.getUsername();
+    // this.getUsername();
   }
 
   updatePicture() {
@@ -62,6 +63,7 @@ export class AccountPage {
 
   logout() {
     this.userData.logout();
+    // this.userData.logout();
     this.nav.setRoot('LoginPage');
   }
 
